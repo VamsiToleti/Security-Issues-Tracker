@@ -67,3 +67,6 @@ Data is stored in a SharePoint list, and the app leverages formulas and connecto
 📜 License
 This project is licensed under the MIT License.  
 Feel free to use and modify it for your own needs.
+
+
+To Use this repo or to make changes in this repo one should have powerapps license
