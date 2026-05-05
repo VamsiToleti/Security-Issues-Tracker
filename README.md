@@ -36,13 +36,13 @@ Data is stored in a SharePoint list, and the app leverages formulas and connecto
 - Connector: Office 365 Users (for organizational directory)  
 - Logic: Power Apps formulas  
 
----
+
 
 # 📂 Project Structure
 /project-root
-│── /sharepoint-list   # Stores issue data
-│── /canvas-app        # Power Apps UI and logic
-│── README.md          # Documentation
+│── /sharepoint-list    Stores issue data
+│── /canvas-app         Power Apps UI and logic
+│── README.md           Documentation
 
 
 
