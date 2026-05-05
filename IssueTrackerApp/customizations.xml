@@ -1,0 +1,53 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26035.200" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26035.00200">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>cr989_securityissuestracker_e4237</Name>
+      <AppVersion>2026-05-05T07:13:10Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.26043.19.0</CreatedByClientVersion>
+      <MinClientVersion>3.26043.19.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"1271","primaryDeviceHeight":"485","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.26043.19","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","m365CopilotSettingValue":"0","sienaVersion":"20260429T102059Z-3.26042.14.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>Security Issues Tracker</DisplayName>
+      <Description>This is a Security Issues tracker app where we assign all the issues and give brief about the Issues in the description, and we are assigning to a particular person by connecting to a connector called office 365 and SharePoint list as well.
+
+And In addition to that we have fields about the severity of Issue as well and completion date as well...</Description>
+      <CommitMessage>Save app with description provided in publish dialog.</CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"7263b98d-9481-4245-942e-c28ad1ab375d":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1769/1.0.1769.4361/sharepointonline/icon.png","dataSources":["Security Issues tracker"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://m365x76695654-my.sharepoint.com/personal/admin_m365x76695654_onmicrosoft_com":{"dataSources":{"Security Issues tracker":{"tableName":"a154d0d7-71cc-440b-bc32-f427968df323"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]},"6b2b671f-1d2e-4f54-b6f8-884576d3842b":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://static.powerapps.com/resource/ppcr/releases/v1.0.1807/1.0.1807.4725/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SearchUserV2"]}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/cr989_securityissuestracker_e4237_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/cr989_securityissuestracker_e4237_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/cr989_securityissuestracker_e4237_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
